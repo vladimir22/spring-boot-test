@@ -6,7 +6,7 @@ test uses groupName 'dispatcher' , contains some comments with issues
 retrive details from userGroup : dispatcher
 ------------------------------------------------------------------------
 
-there is an inconvenience: endpoint should contains groupId field, because this key value is used in further endpoints !  
+<span style="color:#FF0000">there is an inconvenience: endpoint should contains groupId field, because this key value is used in further endpoints !</span> 
 
 ```
 Request method:	GET
