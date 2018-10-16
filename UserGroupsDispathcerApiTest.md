@@ -6,9 +6,9 @@ test uses groupName 'dispatcher' , contains some comments with issues
 retrive details from userGroup : dispatcher
 ------------------------------------------------------------------------
 
-<span style="color:#FF0000">
+:exclamation:
     there is an inconvenience: endpoint should contains groupId field, because this key value is used in further endpoints !
-</span> 
+
 
 ```
 Request method:	GET
