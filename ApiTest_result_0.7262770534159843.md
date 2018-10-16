@@ -1,5 +1,6 @@
 retrive data for userGroup : dispatcher
 -----------------------------------------------------------------------------
+<pre>
 Request method:	GET  
 Request URI:	http://localhost:56237/userGroups?groupName=dispatcher  
 Proxy:			<none>   
@@ -15,6 +16,8 @@ HTTP/1.1 200
 Content-Type: application/hal+json;charset=UTF-8  
 Transfer-Encoding: chunked  
 Date: Tue, 16 Oct 2018 06:45:47 GMT  
+</pre> 
+  
 ```javascript
 {
   "groupName" : "dispatcher",
