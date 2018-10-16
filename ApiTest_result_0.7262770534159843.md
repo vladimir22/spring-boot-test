@@ -1,4 +1,4 @@
-Testing '/userGroups' Endpoint
+*Testing '/userGroups' Endpoint*
 ========================================================================
 
 tests for '/userGroups' endpoints  
