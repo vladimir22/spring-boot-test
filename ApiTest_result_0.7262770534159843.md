@@ -1,11 +1,11 @@
 retrive data for userGroup : dispatcher
 -----------------------------------------------------------------------------
-Request method:	GET
-Request URI:	http://localhost:56237/userGroups?groupName=dispatcher
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
+Request method:	GET  
+Request URI:	http://localhost:56237/userGroups?groupName=dispatcher 
+Proxy:			<none> 
+Request params:	<none> 
+Query params:	<none> 
+Form params:	<none> 
 Path params:	<none>
 Multiparts:		<none>
 Headers:		Accept=*/*
