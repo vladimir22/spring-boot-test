@@ -15,7 +15,7 @@ HTTP/1.1 200
 Content-Type: application/hal+json;charset=UTF-8
 Transfer-Encoding: chunked
 Date: Tue, 16 Oct 2018 06:45:47 GMT
-
+```javascript
 {
   "groupName" : "dispatcher",
   "description" : "this is the dispatcher user group",
@@ -69,4 +69,5 @@ Date: Tue, 16 Oct 2018 06:45:47 GMT
     }
   }
 }
-
+```
+  
