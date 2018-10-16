@@ -2,7 +2,7 @@ Testing '/userGroups' Endpoint
 ========================================================================
 run Dummy2ApiTest on serverPort : 57594
 ------------------------------------------------------------------------
-</pre>
+<pre>
 Request method:	GET
 Request URI:	http://localhost:57594/userGroups?groupName=operator
 Proxy:			<none>
@@ -60,7 +60,7 @@ Date: Tue, 16 Oct 2018 07:45:14 GMT
 </pre>
 run Dummy2ApiTest part2 on serverPort : 57594
 ------------------------------------------------------------------------
-</pre>
+<pre>
 Request method:	GET
 Request URI:	http://localhost:57594/userGroups?groupName=operator
 Proxy:			<none>
@@ -118,7 +118,7 @@ Date: Tue, 16 Oct 2018 07:45:15 GMT
 </pre>
 run Dummy2ApiTest part2 on serverPort : 57594
 ------------------------------------------------------------------------
-</pre>
+<pre>
 Request method:	GET
 Request URI:	http://localhost:57594/userGroups?groupName=operator
 Proxy:			<none>
