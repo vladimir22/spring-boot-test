@@ -1,10 +1,16 @@
 Testing '/userGroups' Endpoint
 ========================================================================
-run Dummy2ApiTest on serverPort : 57594
+
+tests for '/userGroups' endpoints  
+
+retrive userGroup data by groupName
 ------------------------------------------------------------------------
+
+server runs on serverPort: 57802  
+
 <pre>
 Request method:	GET
-Request URI:	http://localhost:57594/userGroups?groupName=operator
+Request URI:	http://localhost:57802/userGroups?groupName=operator
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -17,7 +23,7 @@ Body:			<none>
 HTTP/1.1 200 
 Content-Type: application/hal+json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Tue, 16 Oct 2018 07:45:14 GMT
+Date: Tue, 16 Oct 2018 07:54:43 GMT
 
 {
     "groupName": "operator",
@@ -47,22 +53,23 @@ Date: Tue, 16 Oct 2018 07:45:14 GMT
     ],
     "_links": {
         "self": {
-            "href": "http://localhost:57594/v1/userGroups/1"
+            "href": "http://localhost:57802/v1/userGroups/1"
         },
         "userGroup": {
-            "href": "http://localhost:57594/v1/userGroups/1"
+            "href": "http://localhost:57802/v1/userGroups/1"
         },
         "relations": {
-            "href": "http://localhost:57594/v1/userGroups/1/relations"
+            "href": "http://localhost:57802/v1/userGroups/1/relations"
         }
     }
 }
 </pre>
-run Dummy2ApiTest part2 on serverPort : 57594
+run Dummy2ApiTest part2 on serverPort : 57802
 ------------------------------------------------------------------------
+
 <pre>
 Request method:	GET
-Request URI:	http://localhost:57594/userGroups?groupName=operator
+Request URI:	http://localhost:57802/userGroups?groupName=operator
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -75,7 +82,7 @@ Body:			<none>
 HTTP/1.1 200 
 Content-Type: application/hal+json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Tue, 16 Oct 2018 07:45:15 GMT
+Date: Tue, 16 Oct 2018 07:54:44 GMT
 
 {
     "groupName": "operator",
@@ -105,22 +112,23 @@ Date: Tue, 16 Oct 2018 07:45:15 GMT
     ],
     "_links": {
         "self": {
-            "href": "http://localhost:57594/v1/userGroups/1"
+            "href": "http://localhost:57802/v1/userGroups/1"
         },
         "userGroup": {
-            "href": "http://localhost:57594/v1/userGroups/1"
+            "href": "http://localhost:57802/v1/userGroups/1"
         },
         "relations": {
-            "href": "http://localhost:57594/v1/userGroups/1/relations"
+            "href": "http://localhost:57802/v1/userGroups/1/relations"
         }
     }
 }
 </pre>
-run Dummy2ApiTest part2 on serverPort : 57594
+run Dummy2ApiTest part2 on serverPort : 57802
 ------------------------------------------------------------------------
+
 <pre>
 Request method:	GET
-Request URI:	http://localhost:57594/userGroups?groupName=operator
+Request URI:	http://localhost:57802/userGroups?groupName=operator
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -133,7 +141,7 @@ Body:			<none>
 HTTP/1.1 200 
 Content-Type: application/hal+json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Tue, 16 Oct 2018 07:45:15 GMT
+Date: Tue, 16 Oct 2018 07:54:44 GMT
 
 {
     "groupName": "operator",
@@ -163,13 +171,13 @@ Date: Tue, 16 Oct 2018 07:45:15 GMT
     ],
     "_links": {
         "self": {
-            "href": "http://localhost:57594/v1/userGroups/1"
+            "href": "http://localhost:57802/v1/userGroups/1"
         },
         "userGroup": {
-            "href": "http://localhost:57594/v1/userGroups/1"
+            "href": "http://localhost:57802/v1/userGroups/1"
         },
         "relations": {
-            "href": "http://localhost:57594/v1/userGroups/1/relations"
+            "href": "http://localhost:57802/v1/userGroups/1/relations"
         }
     }
 }
