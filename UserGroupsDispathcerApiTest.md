@@ -3,7 +3,7 @@
 
 test uses groupName 'dispatcher' , contains some comments with issues  
 
-retrive details from userGroup : dispatcher
+retrieve details from userGroup : dispatcher
 ------------------------------------------------------------------------
 
 details contains _links.self.href with 'groupId' value  
