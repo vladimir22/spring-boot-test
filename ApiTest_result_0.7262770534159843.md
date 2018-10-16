@@ -1,5 +1,5 @@
 retrive data for userGroup : dispatcher
-==================
+========================================================================
 Request method:	GET
 Request URI:	http://localhost:56237/userGroups?groupName=dispatcher
 Proxy:			<none>
