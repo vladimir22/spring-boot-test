@@ -8,7 +8,7 @@ retrive details from userGroup : dispatcher
 
 there is an inconvenience: endpoint should contains groupId field, because this key value is used in further endpoints !  
 
-<pre>
+```
 Request method:	GET
 Request URI:	http://localhost:58421/userGroups?groupName=dispatcher
 Proxy:			<none>
@@ -93,7 +93,7 @@ add defaultAors to groupId : 2
 get defaultAors by groupId : 2
 ------------------------------------------------------------------------
 
-</pre>
+```
 get userGroup details by groupName
 ------------------------------------------------------------------------
 
